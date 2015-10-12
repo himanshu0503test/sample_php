@@ -13,4 +13,4 @@ script:
 notifications:
    email: false
 
-archive: false
+archive: truea
