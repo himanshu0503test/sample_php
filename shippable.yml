@@ -4,11 +4,11 @@ php:
   - 5.6
   - 7.0
 
-after_script:
-  - pwd
+before_install:
+  - currentLocation="$PWD"
   - cd /tmp/pickle
   - printf '\n' | bin/pickle install intl
-  - cd /
+  - cd "$currentLocation"
 
 before_script: 
   - mkdir -p shippable/codecoverage
