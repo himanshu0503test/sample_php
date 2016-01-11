@@ -5,6 +5,7 @@ php:
   - 7.0
 
 after_script:
+  - pwd
   - cd /tmp/pickle
   - printf '\n' | bin/pickle install intl
   - cd /
