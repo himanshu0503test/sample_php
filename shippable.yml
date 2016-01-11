@@ -4,7 +4,7 @@ php:
   - 5.6
   - 7.0
 
-before_install:
+after_script:
   - cd /tmp/pickle
   - printf '\n' | bin/pickle install intl
   - cd /
