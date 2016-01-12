@@ -1,5 +1,5 @@
 language: php
-build_image: chetantarale/u12php:changedphp5version
+build_image: chetantarale/u12php:fixedphpunitbug
 php: 
   - 5.4
   - 5.5
